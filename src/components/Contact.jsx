@@ -9,6 +9,8 @@ import { slideIn } from '../utils/motion';
 import {StarsCanvas} from  './canvas';
 
 
+
+
 const Contact = () => {
   const formRef = useRef();
   const [form, setForm] = useState({
@@ -19,10 +21,37 @@ const Contact = () => {
 
   const [loading, setLoading] = useState(false);
 
-  const handleChange = (e) => { }
+  const handleChange = (e) => { 
+    const { name, value} = e.target;
+    setForm({...form, [name]:value});
 
-  const handleSubmit = (e) => { }
+  }
 
+
+  const handleSubmit = (e) => { 
+     e.preventDefault();
+     setLoading(true);
+     emailjs.send('service_0wf75sn', 'template_wf5jxrv',
+     {
+      from_name: form.name,
+      to_name: 'Abigail',
+      from_email:form.email,
+      to_email:'abigail.theresa.moraes@gmail.com',
+      message: form.message,
+     }, 'EsRqzxTXWUNbaw0h4' ).then(() => {
+      setLoading(false);
+      alert('Thank you for your email!');
+  setForm({
+    name:'',
+    email:'',
+    message:'',
+  });
+}, (error) => {
+    setLoading(false);
+    console.log(error);
+    alert('Something went wrong.');
+  })
+  }
 
   return (
     <div className="xl:mt-12 xl:flex-row flex-col-reverse

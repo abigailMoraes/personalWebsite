@@ -26,6 +26,7 @@ import {
   bioLytical,
   taskmanager,
   gamesetmatch,
+  KnowlEdge,
 } from "../assets";
 
 export const navLinks = [
@@ -198,6 +199,7 @@ const projects = [
     ],
     image: taskmanager,
     source_code_link: "https://github.com/abigailMoraes/task-manager-app",
+    app_link: "https://github.com/abigailMoraes/task-manager-app",
   },
   {
     name: "GameSetMatch",
@@ -219,6 +221,33 @@ const projects = [
     ],
     image: gamesetmatch,
     source_code_link: "https://github.com/abigailMoraes",
+    app_link: "https://github.com/abigailMoraes",
+  },
+  {
+    name: "KnowlEdge",
+    description:
+      "KnowlEdge is an online course management system built using the MERN stack, KnowlEdge allows users to create accounts, enroll in courses, access course information, create tasks/events on a calendar, create flashcards for practicing terminology, edit profiles, and view course information.",
+    tags: [
+      {
+        name: "MongoDB",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Express",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "React",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Node",
+        color: "green-text-gradient",
+      },
+    ],
+    image: KnowlEdge,
+    source_code_link: "https://github.com/KKaiyuan/KnowlEdge",
+    app_link: "https://knowledge-client.onrender.com",
   },
 ];
 

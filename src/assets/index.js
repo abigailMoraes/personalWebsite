@@ -36,6 +36,7 @@ import tripguide from "./tripguide.png";
 import SAP from "./company/SAP.png";
 import Amgen from "./company/Amgen.png";
 import bioLytical from "./company/bioLytical.png";
+import KnowlEdge from "./KnowlEdge.png";
 
 export {
   logo,
@@ -72,4 +73,5 @@ export {
   SAP,
   taskmanager,
   gamesetmatch,
+  KnowlEdge,
 };
