@@ -27,6 +27,7 @@ import {
   taskmanager,
   gamesetmatch,
   KnowlEdge,
+  Yelp
 } from "../assets";
 
 export const navLinks = [
