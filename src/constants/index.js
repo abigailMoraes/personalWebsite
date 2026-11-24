@@ -112,6 +112,18 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Software Engineer",
+    company_name: "Yelp",
+    icon: Yelp,
+    iconBg: "white",
+    date: "May 2024 - Present",
+    points: [
+      "Trained and deployed ML models to improve automated bot traffic detection and mitigation, thereby safeguarding Yelp\'s data, preserving service availability, and optimizing ad spend.",
+      "Maintained and enhanced a variety of internal dashboards and services to investigate traffic anomalies, identify novel bot behavioral signals and generate labeled datasets for continued improvement.",
+      "Harnessed AI and ML workflows to streamline traffic spike investigations and metric reconciliation.",
+    ],
+  },
+  {
     title: "Agile Developer Intern",
     company_name: "SAP",
     icon: SAP,
