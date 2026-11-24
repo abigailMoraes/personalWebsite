@@ -7,7 +7,7 @@ import CanvasLoader from '../Loader';
 
 
 const Earth = () => {
-  const earth = useGLTF('./newearth/scene.gltf');
+  const earth = useGLTF( `${import.meta.env.BASE_URL}newearth/scene.gltf`, GLTFLoader);
   return (
     <primitive
       object={earth.scene}
