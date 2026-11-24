@@ -6,7 +6,7 @@ import { SectionWrapper } from "../../hoc/SectionWrapper";
 import CanvasLoader from "../Loader";
 
 const Computers = ({ isMobile }) => {
-  const computer = useGLTF( `${import.meta.env.BASE_URL}desktop_pc/scene.gltf`, GLTFLoader);
+  const computer = useGLTF( `${import.meta.env.BASE_URL}desktop_pc/scene.gltf`);
 
   return (
     <mesh>
