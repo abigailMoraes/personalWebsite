@@ -37,7 +37,7 @@ import SAP from "./company/SAP.png";
 import Amgen from "./company/Amgen.png";
 import bioLytical from "./company/bioLytical.png";
 import KnowlEdge from "./KnowlEdge.png";
-import Yelp from "./company/Yelp.png";
+import Yelp from "./company/yelp.png";
 
 export {
   logo,
