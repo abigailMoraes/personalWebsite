@@ -5,15 +5,13 @@ import { motion } from "framer-motion";
 
 const Tech = () => {
   return (
-    <div
-      className="flex flex-row flex-wrap
-    justify-center gap-10"
-    >
-      {technologies.map((technology) => (
-        <div className="w-28 h-28" key={technology.name}>
-          <BallCanvas icon={technology.icon} />
-        </div>
-      ))}
+    <div className="relative">
+      <div className="flex flex-row flex-wrap justify-center gap-10">
+        {technologies.map((technology) => (
+          <div className="w-28 h-28" key={technology.name} />
+        ))}
+      </div>
+      <BallCanvas icons={technologies.map((technology) => technology.icon)} />
     </div>
   );
 };
