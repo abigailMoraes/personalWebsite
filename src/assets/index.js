@@ -38,6 +38,7 @@ import Amgen from "./company/Amgen.png";
 import bioLytical from "./company/bioLytical.png";
 import KnowlEdge from "./KnowlEdge.png";
 import Yelp from "./company/yelp.png";
+import recollection from "./recollection.png";
 
 export {
   logo,
@@ -75,5 +76,6 @@ export {
   taskmanager,
   gamesetmatch,
   KnowlEdge,
+  recollection,
   Yelp,
 };

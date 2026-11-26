@@ -27,6 +27,7 @@ import {
   taskmanager,
   gamesetmatch,
   KnowlEdge,
+  recollection,
   Yelp
 } from "../assets";
 
@@ -164,32 +165,6 @@ const experiences = [
   },
 ];
 
-const testimonials = [
-  {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
-];
 
 const projects = [
   {
@@ -261,6 +236,28 @@ const projects = [
     image: KnowlEdge,
     source_code_link: "https://github.com/KKaiyuan/KnowlEdge",
     app_link: "https://knowledge-client.onrender.com",
+  },
+   {
+    name: "Recollection",
+    description:
+      "2D platformer with wave survival with a simple game engine built entirely in OpenGL.",
+    tags: [
+      {
+        name: "OpenGL",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "C++",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Game Development",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: recollection,
+    source_code_link: "https://github.com/abigailMoraes/recollection",
+    app_link: "https://github.com/abigailMoraes/recollection",
   },
 ];
 
