@@ -240,8 +240,8 @@ const projects = [
    {
     name: "Recollection",
     description:
-      "2D platformer with wave survival with a simple game engine built entirely in OpenGL.",
-    tags: [
+      "2D platformer with wave survival with a simple game engine built entirely in OpenGL. Key features implemented include parallax scrolling backgrounds, sprite animation, mesh collision, particle effects and basic gamge physics. Also implemented a simple fragment shader for visual effects.",
+      tags:[
       {
         name: "OpenGL",
         color: "blue-text-gradient",
